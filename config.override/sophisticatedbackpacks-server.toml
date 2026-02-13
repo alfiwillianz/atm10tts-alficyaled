@@ -28,7 +28,7 @@
 		#Number of inventory slots in the backpack
 		# Default: 27
 		# Range: 1 ~ 144
-		inventorySlotCount = 27
+		inventorySlotCount = 45
 		#Number of upgrade slots in the backpack
 		# Default: 1
 		# Range: 0 ~ 10
@@ -39,7 +39,7 @@
 		#Number of inventory slots in the backpack
 		# Default: 45
 		# Range: 1 ~ 144
-		inventorySlotCount = 45
+		inventorySlotCount = 54
 		#Number of upgrade slots in the backpack
 		# Default: 1
 		# Range: 0 ~ 10
@@ -50,7 +50,7 @@
 		#Number of inventory slots in the backpack
 		# Default: 54
 		# Range: 1 ~ 144
-		inventorySlotCount = 63
+		inventorySlotCount = 81
 		#Number of upgrade slots in the backpack
 		# Default: 2
 		# Range: 0 ~ 10
@@ -61,7 +61,7 @@
 		#Number of inventory slots in the backpack
 		# Default: 81
 		# Range: 1 ~ 144
-		inventorySlotCount = 96
+		inventorySlotCount = 108
 		#Number of upgrade slots in the backpack
 		# Default: 3
 		# Range: 0 ~ 10
