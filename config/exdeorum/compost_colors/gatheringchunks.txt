@@ -1,0 +1,4 @@
+// Compost colors for gatheringchunks. You may add your own colors, change existing ones, or remove colors that aren't needed.
+worldcrystal, #6cff
+worldfragment, #97ff
+worldshard, #69ff

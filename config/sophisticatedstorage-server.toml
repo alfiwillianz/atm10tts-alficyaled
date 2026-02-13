@@ -18,7 +18,7 @@
 		#Number of inventory slots in the storage
 		# Default: 27
 		# Range: 1 ~ 180
-		inventorySlotCount = 45
+		inventorySlotCount = 27
 		#Number of upgrade slots in the storage
 		# Default: 1
 		# Range: 0 ~ 10
@@ -29,7 +29,7 @@
 		#Number of inventory slots in the storage
 		# Default: 45
 		# Range: 1 ~ 180
-		inventorySlotCount = 54
+		inventorySlotCount = 45
 		#Number of upgrade slots in the storage
 		# Default: 1
 		# Range: 0 ~ 10
@@ -40,7 +40,7 @@
 		#Number of inventory slots in the storage
 		# Default: 54
 		# Range: 1 ~ 180
-		inventorySlotCount = 81
+		inventorySlotCount = 63
 		#Number of upgrade slots in the storage
 		# Default: 2
 		# Range: 0 ~ 10
@@ -51,7 +51,7 @@
 		#Number of inventory slots in the storage
 		# Default: 81
 		# Range: 1 ~ 180
-		inventorySlotCount = 108
+		inventorySlotCount = 96
 		#Number of upgrade slots in the storage
 		# Default: 3
 		# Range: 0 ~ 10
@@ -62,7 +62,7 @@
 		#Number of inventory slots in the storage
 		# Default: 108
 		# Range: 1 ~ 180
-		inventorySlotCount = 132
+		inventorySlotCount = 144
 		#Number of upgrade slots in the storage
 		# Default: 4
 		# Range: 0 ~ 10
@@ -348,7 +348,7 @@
 		#Number of inventory slots in the storage
 		# Default: 27
 		# Range: 1 ~ 180
-		inventorySlotCount = 45
+		inventorySlotCount = 27
 		#Number of upgrade slots in the storage
 		# Default: 1
 		# Range: 0 ~ 10
@@ -359,7 +359,7 @@
 		#Number of inventory slots in the storage
 		# Default: 45
 		# Range: 1 ~ 180
-		inventorySlotCount = 54
+		inventorySlotCount = 45
 		#Number of upgrade slots in the storage
 		# Default: 1
 		# Range: 0 ~ 10
@@ -370,7 +370,7 @@
 		#Number of inventory slots in the storage
 		# Default: 54
 		# Range: 1 ~ 180
-		inventorySlotCount = 81
+		inventorySlotCount = 63
 		#Number of upgrade slots in the storage
 		# Default: 2
 		# Range: 0 ~ 10
@@ -381,7 +381,7 @@
 		#Number of inventory slots in the storage
 		# Default: 81
 		# Range: 1 ~ 180
-		inventorySlotCount = 108
+		inventorySlotCount = 96
 		#Number of upgrade slots in the storage
 		# Default: 3
 		# Range: 0 ~ 10
@@ -392,7 +392,7 @@
 		#Number of inventory slots in the storage
 		# Default: 108
 		# Range: 1 ~ 180
-		inventorySlotCount = 132
+		inventorySlotCount = 144
 		#Number of upgrade slots in the storage
 		# Default: 4
 		# Range: 0 ~ 10
@@ -414,7 +414,7 @@
 		#Number of inventory slots in the storage
 		# Default: 27
 		# Range: 1 ~ 180
-		inventorySlotCount = 45
+		inventorySlotCount = 27
 		#Number of upgrade slots in the storage
 		# Default: 1
 		# Range: 0 ~ 10
@@ -425,7 +425,7 @@
 		#Number of inventory slots in the storage
 		# Default: 45
 		# Range: 1 ~ 180
-		inventorySlotCount = 54
+		inventorySlotCount = 45
 		#Number of upgrade slots in the storage
 		# Default: 1
 		# Range: 0 ~ 10
@@ -436,7 +436,7 @@
 		#Number of inventory slots in the storage
 		# Default: 54
 		# Range: 1 ~ 180
-		inventorySlotCount = 81
+		inventorySlotCount = 63
 		#Number of upgrade slots in the storage
 		# Default: 2
 		# Range: 0 ~ 10
@@ -447,7 +447,7 @@
 		#Number of inventory slots in the storage
 		# Default: 81
 		# Range: 1 ~ 180
-		inventorySlotCount = 108
+		inventorySlotCount = 96
 		#Number of upgrade slots in the storage
 		# Default: 3
 		# Range: 0 ~ 10
@@ -458,7 +458,7 @@
 		#Number of inventory slots in the storage
 		# Default: 108
 		# Range: 1 ~ 180
-		inventorySlotCount = 132
+		inventorySlotCount = 144
 		#Number of upgrade slots in the storage
 		# Default: 4
 		# Range: 0 ~ 10
@@ -614,8 +614,8 @@
 		# Default: 3
 		# Range: 1 ~ 6
 		slotsInRow = 3
-		#Determines whether void upgrade allows voiding anything or it only has overflow option
-		voidAnythingEnabled = true
+		#Determines whether void upgrade allows voiding always or it only has overflow options
+		voidAlwaysEnabled = true
 
 	#Advanced Void Upgrade Settings
 	[server.advancedVoidUpgrade]
@@ -627,8 +627,8 @@
 		# Default: 4
 		# Range: 1 ~ 6
 		slotsInRow = 4
-		#Determines whether void upgrade allows voiding anything or it only has overflow option
-		voidAnythingEnabled = true
+		#Determines whether void upgrade allows voiding always or it only has overflow options
+		voidAlwaysEnabled = true
 
 	#Smelting Upgrade Settings
 	[server.smeltingUpgrade]

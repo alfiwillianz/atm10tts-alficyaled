@@ -1,1 +1,25 @@
+# Ignore everything by default
+/*
 
+# Allow essential configuration folders
+!/config/
+!/config.override/
+!/defaultconfigs/
+!/kubejs/
+!/mods/
+!/mods.override/
+
+# Allow specific server scripts and metadata
+!/run.sh
+!/startserver.sh
+!/startserver.bat
+!/user_jvm_args.txt
+!/server.properties
+!/.gitignore
+!/README.md
+
+# Ignore specific dynamic data within allowed folders (optional but recommended)
+/mods/*
+/mods/*.txt
+# Note: If you want to track actual .jar files in /mods, uncomment the next line:
+# !/mods/*.jar
